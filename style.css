@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  background-color: #EDF7F6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #56351E;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: 'Cambria';
+    font-size: large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #56351E;
+  }
+  
+  li a:hover {
+    background-color: #C47335;
+  }
+
+  .container {
+    margin-top: 5%;
+    height: 74%;
+    width: 80%;
+    background-color: #56351E;
+    opacity: 0.7;
+    z-index: 0;
+  }
+
+  .contactBtn {
+  margin-top: 2%;
+  font-family: 'impact';
+  font-size: 5%;
+  color: #56351E;
+  }
+
+/* 
+  img {
+    position: relative;
+    height: 50%;
+    width: 45%;
+    z-index: 1;
+  } */
