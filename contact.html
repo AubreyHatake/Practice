@@ -7,15 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<title>Alex</title>
 </head>
-<section>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <!-- <li><a href="resume.html" >Resume</a></li> -->
-        </ul>
-</section>        
+<style>
+    body {
+        background-color: rgb(3, 0, 0);
+    }
+</style>
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <!-- <li><a href="resume.html" >Resume</a></li> -->
+</ul>
+<div class="alexStanding"></div>        
 <body>
-<h1>Contact</h1>
-</body>
+    <div class="contactContainer">
+        <h1 class="contactH">Contact</h1>
+    <form class="formContainer">
+        <input name="first-name" placeholder="First name" type="text">
+        <input name="last-name" placeholder="Last name" type="text">
+        <input name="email" placeholder="Email address" type="text">
+        <textarea name="message" placeholder="Write me a love letter" ></textarea>
+        <input type="reset" value="Clear" > 
+        <input type="submit" value="Send" > 
+    </form> 
+    </div>
+ </body>
 </html>

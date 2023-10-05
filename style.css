@@ -1,18 +1,15 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
-body {
-  background-color:	#c4edfc;;
-}
 
 .btn-group button {
-  background-color: #fffaf4; /* Green background */
+  background-color: #ecf3f5; 
   border: 4px solid #02bb08; /* Green border */
   color: white; /* White text */
-  padding: 20px 84px; /* Some padding */
+  padding: 20%; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
+  width: 400%; /* Set a width if needed */
   display: block;
 }
 
@@ -29,7 +26,7 @@ button a {
   display: block;
   color: #000;
   padding: 8px 16px;
-  font-family: 'Cambria';
+  font-family: 'impact';
   font-size: large;
 }
 
@@ -38,16 +35,40 @@ button {
   margin: 2px;
   padding: 2px;
   height: 20%;
-  width: 40%;
+  width: 60%;
   border-bottom: 1px solid #555;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c4edfc;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(5, 3, 3);
+  font-family: 'Impact';
+  font-size: large;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFA500;
+}
 
 section {
   position: absolute;
   top: 24%;
-  left: 40%;
+  left: 42%;
 }
 
   .container {
@@ -73,8 +94,8 @@ section {
   .orangeOne {
   flex: 2 1 ;
   position: relative;
-  height: 44%;
-  width: 32%;
+  height: 50%;
+  width: 50%;
   top: 22%;
   left: 37%;
   background-image: url("/imgs/orange.jpg");
@@ -126,28 +147,114 @@ section {
 
    .starContainer {
     position: relative;
-    top: 2%;
-    left: -10%;
+    top: -1%;
+    left: -6%;
     z-index: -1;
    }
 
    .starContainerTwo {
     position: relative;
-    top: -48%;
-    left: 12%;
+    top: -56%;
+    left: 30%;
     z-index: -1;
    }
 
    .starContainerThree {
     position: relative;
-    top: -82%;
-    left: -26%;
+    top: -90%;
+    left: -24%;
     z-index: -1;
    }
 
    .starContainerFour {
     position: relative;
-    top: -72%;
+    top: -78%;
     left: -44%;
     z-index: -1;
    }
+
+   .aboutmeContainer {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+    height: 40%;
+    width: 30%;
+    background-color: #02bb08;
+    opacity: 0.7;
+    z-index: -2;
+   }
+
+   .nameCard {
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: bold;
+    color: white;
+   }
+
+   .aboutme {
+    text-align: center;
+    font-family: 'Cambria';
+    font-weight: bold;
+    font-size: large;
+    color: white;
+   }
+
+   .contactH {
+    color: white;
+   }
+
+   .alexStanding {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    border-style: none;
+    height: 100%;
+    width: 26%;
+    background-image: url("imgs/IMG-3762.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: -1;
+   }
+
+   .contactContainer {
+    position: absolute;
+    left: 40%;
+   }
+
+   /* .formContainer {
+    display: block;
+   } */
+
+   input[type=text] {
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c4edfc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c4edfc;
+    border-radius: 4px;
+  }
+
+  input[type=reset] {
+    width: 40%;
+    font-family: 'Cambria';
+    font-weight: bold;
+    background-color: #c4edfc;
+  }
+
+  input[type=submit] {
+    width: 40%;
+    font-family: 'Cambria';
+    font-weight: bold;
+    background-color: #c4edfc;
+  }
