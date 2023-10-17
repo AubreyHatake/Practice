@@ -150,6 +150,14 @@ section {
     top: -1%;
     left: -6%;
     z-index: -1;
+    animation: stars 2s;
+   }
+
+   @keyframes stars 
+   {
+    from {top: -220%;}
+    to {top: -1%}
+
    }
 
    .starContainerTwo {
@@ -157,6 +165,12 @@ section {
     top: -56%;
     left: 30%;
     z-index: -1;
+    animation: stary 2s;
+   }
+
+   @keyframes stary {
+    from {top: -220%;}
+    to {top: -56%;}
    }
 
    .starContainerThree {
@@ -164,6 +178,12 @@ section {
     top: -90%;
     left: -24%;
     z-index: -1;
+    animation: moStars 2s;
+   }
+
+   @keyframes moStars {
+    from {top: -220%;}
+    to {top: -90%;}
    }
 
    .starContainerFour {
@@ -171,6 +191,12 @@ section {
     top: -78%;
     left: -44%;
     z-index: -1;
+    animation: lastStar 2s;
+   }
+
+   @keyframes lastStar {
+    from {top: -220%;}
+    to {top: -78%;}
    }
 
    .aboutmeContainer {
@@ -182,6 +208,12 @@ section {
     background-color: #02bb08;
     opacity: 0.7;
     z-index: -2;
+    animation: homeContainer 2s;
+   }
+
+   @keyframes homeContainer {
+    from {bottom: 1000%;}
+    to {bottom: 4%;}
    }
 
    .nameCard {
@@ -247,6 +279,7 @@ section {
 
   input[type=reset] {
     width: 40%;
+    padding: 2px;
     font-family: 'Cambria';
     font-weight: bold;
     background-color: #c4edfc;
@@ -254,7 +287,39 @@ section {
 
   input[type=submit] {
     width: 40%;
+    padding: 2px;
     font-family: 'Cambria';
     font-weight: bold;
     background-color: #c4edfc;
+  }
+
+  label {
+    color: white;
+    font-family: 'Cambria';
+  }
+
+  .seeMore {
+    margin-left: auto;
+    margin-right: auto;
+    height: 4%;
+    width: 8%;
+    border-radius: 2px;
+    border-color: white;
+    color: black;
+    background-color: #c4edfc;
+  }
+
+  .projectsContainer {
+    margin: 4px;
+    padding: 6px;
+  }
+
+  .videos {
+    float: left;
+    margin: 4px;
+    padding: 4px;
+  }
+
+  .space {
+    padding: 10px;
   }
